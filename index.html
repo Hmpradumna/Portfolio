@@ -1612,11 +1612,11 @@
           b.vx -= (dx / dist) * force;
           b.vy -= (dy / dist) * force;
 
-          // boundary bounce
+      /*  // boundary bounce
           if (b.x < b.s / 2) { b.x = b.s / 2; b.vx = Math.abs(b.vx) * 0.85; }
           if (b.x > sw - b.s / 2) { b.x = sw - b.s / 2; b.vx = -Math.abs(b.vx) * 0.85; }
           if (b.y < b.s / 2) { b.y = b.s / 2; b.vy = Math.abs(b.vy) * 0.85; }
-          if (b.y > sh - b.s / 2) { b.y = sh - b.s / 2; b.vy = -Math.abs(b.vy) * 0.85; }
+          if (b.y > sh - b.s / 2) { b.y = sh - b.s / 2; b.vy = -Math.abs(b.vy) * 0.85; }*/
 
           // ball-to-ball collision repulsion
           balls.forEach(other => {
